@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/contacto.css" >
+    <title>Accesibilidad en la Web -- Contacto</title>
+</head>
+<body>
+        <header>
+            <h1>Contacto</h1>
+            <nav aria-label="Navegación Principal">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Sobre Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <form>
+        <h2>Contactanos</h2>
+
+        
+            <label for="nombre" aria-label="Nombre completo">Nombre Completo: </label>
+            <input type="text" name="nombre" id="nombre" aria-label="escribe tu nombre" placeholder="Nombre Completo" required />
+        
+
+        
+            <label for="correo" aria-label="Correo electronico" >Correo electronico</label>
+            <input type="email" name="correo" id="correo" aria-label="Escribe tu correo" required />
+    
+
+        
+            <label for="comentarios" aria-label="Comentarios" name="comentarios" id="comentarios">Dejanos tus comentarios o contactanos</label>
+            <textarea placeholder="Comentarios"></textarea>
+        
+
+        <button type="submit">ENVIAR</button>
+
+        <img src="https://vieja.ladoh.com/sites/default/files/styles/1280x520/public/accesibilidad-web-disenar-para-todos-no-para-la-mayoria.jpg?itok=7i18DlPs" alt="teclado con personas discapacitadas" />
+    </form>
+
+    <footer>
+        <p>&copy; 2024 Accesibilidad en la Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body {
+    font-family: 'Open-Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #B7B7FF;
+}
+header {
+    padding: 20px;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+}
+header > nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+header > nav >ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header > nav > ul > li {
+    display: inline;
+    margin-right: 20px;
+    font-weight: 500;
+    font-family: 'Open-Sans', sans-serif;
+}
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: #f5f5f5;
+    margin-right: 20px;
+}
+header > nav > ul > li > a:hover{
+    color: #FF1229;
+}
+main {
+    width: 100%;
+    padding: 20px;
+    height: 0 auto;
+    background-color: #73E2FF;
+    color: #000000;
+}
+main > article > div >img {
+    width: 350px;
+    height: 0 auto;
+}
+
+main > section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+main > section > form {
+    padding: 10px;
+}
+main >section>form > label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    padding: 5px 7px;
+}
+main > section >form > button {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    background-color: #25FFA9;
+    padding-top: 5px;
+    cursor: pointer;
+}
+main > section >form > button:hover {
+    background-color: #1ab678;
+    color: #f5f5f5;
+}
+main > footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
